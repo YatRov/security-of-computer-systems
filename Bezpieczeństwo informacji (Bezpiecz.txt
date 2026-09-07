@@ -46,8 +46,8 @@ Bezpieczeństwo informacji (Bezpieczeństwo informacji polega na ochronie danych
 
 23. Wirtualizacja - to technologia pozwalająca uruchamiać wiele wirtualnych komputerów na jednym fizycznym komputerze.
 
-24. 2FA - to metoda zabezpieczenia konta, która wymaga podania dwóch różnych czynników podczas logowania, na przykład hasła i kodu z telefonu.
+24. Two-factor autentication (2FA) - to metoda zabezpieczenia konta, która wymaga podania dwóch różnych czynników podczas logowania, na przykład hasła i kodu z telefonu.
 
-25. MFA - to metoda uwierzytelniania, która wymaga użycia co najmniej dwóch różnych czynników, takich jak hasło, telefon lub odcisk palca.
+25. Multi-factor autentication (MFA) - to metoda uwierzytelniania, która wymaga użycia co najmniej dwóch różnych czynników, takich jak hasło, telefon lub odcisk palca.
 
 26. Zero Trust - to model bezpieczeństwa, w którym nie ufa się automatycznie żadnemu użytkownikowi ani urządzeniu i każdy dostęp jest sprawdzany.
