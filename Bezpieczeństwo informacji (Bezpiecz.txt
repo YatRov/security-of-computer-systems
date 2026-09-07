@@ -1,0 +1,53 @@
+Bezpieczeństwo informacji (Bezpieczeństwo informacji polega na ochronie danych przed nieuprawnionym dostępem, zmianą, kradzieżą, zniszczeniem lub utratą) - w tym jego cechy :
+
+1. Poufność - oznacza, że do informacji mają dostęp tylko osoby, które posiadają odpowiednie uprawnienia.
+
+2. Integralność - oznacza, że dane są poprawne, kompletne i nie zostały nieuprawnienie zmienione.
+
+3. Dostępność - oznacza, że uprawniony użytkownik może korzystać z danych i systemu wtedy, gdy ich potrzebuje.
+
+4. Autentyczność - oznacza, że możemy potwierdzić, iż osoba, urządzenie lub informacja pochodzi z prawdziwego i właściwego źródła.
+
+5. Niezaprzeczalność - oznacza możliwość udowodnienia, że określona osoba wykonała daną czynność lub wysłała daną informację.
+
+6. Botnet - to sieć zainfekowanych urządzeń, które mogą być zdalnie kontrolowane przez osobę atakującą.
+
+7. Brute-force attack - to atak polegający na automatycznym próbowaniu wielu możliwych haseł, aż zostanie znalezione właściwe.
+
+8. DoS - to atak, którego celem jest przeciążenie systemu lub usługi i uniemożliwienie korzystania z niej.
+
+9. DDoS to rozproszony atak polegający na jednoczesnym przeciążaniu systemu lub usługi z wielu urządzeń.
+
+10. Exploit - to program, kod lub technika służąca do wykorzystania konkretnej luki w zabezpieczeniach systemu.
+
+11. Exploit zero-day - to wykorzystanie luki w zabezpieczeniach, na którą producent nie przygotował jeszcze poprawki.
+
+12. Hacking - to wykorzystywanie wiedzy i umiejętności technicznych do badania, modyfikowania lub uzyskiwania dostępu do systemów komputerowych.
+
+13. Keylogger - to program lub urządzenie, które rejestruje klawisze naciskane przez użytkownika.
+
+14. Malware - to ogólna nazwa złośliwego oprogramowania stworzonego w celu wykonywania szkodliwych działań.
+
+15. Ransomware - to rodzaj malware, który może szyfrować lub blokować dane i żądać od ofiary okupu.
+
+16. Phishing - to oszustwo polegające na podszywaniu się pod zaufaną osobę lub firmę w celu wyłudzenia poufnych informacji.
+
+17. Deepfake - to realistyczny, ale fałszywy obraz, film lub dźwięk stworzony albo zmieniony za pomocą sztucznej inteligencji.
+
+18. Wyciek danych - to sytuacja, w której poufne lub chronione informacje trafiają do osób, które nie powinny mieć do nich dostępu.
+
+19. Shadow IT - to korzystanie w organizacji z programów, urządzeń lub usług bez wiedzy i zgody działu IT.
+
+20. Backup - to kopia zapasowa danych, która umożliwia ich odzyskanie po awarii, usunięciu lub ataku.
+
+21. VPN - to technologia tworząca zabezpieczone połączenie między urządzeniem użytkownika a siecią lub serwerem VPN.
+
+22. RDP - to protokół umożliwiający zdalne połączenie z komputerem i korzystanie z jego pulpitu.
+
+23. Wirtualizacja - to technologia pozwalająca uruchamiać wiele wirtualnych komputerów na jednym fizycznym komputerze.
+
+24. 2FA - to metoda zabezpieczenia konta, która wymaga podania dwóch różnych czynników podczas logowania, na przykład hasła i kodu z telefonu.
+
+25. MFA - to metoda uwierzytelniania, która wymaga użycia co najmniej dwóch różnych czynników, takich jak hasło, telefon lub odcisk palca.
+
+26. Zero Trust - to model bezpieczeństwa, w którym nie ufa się automatycznie żadnemu użytkownikowi ani urządzeniu i każdy dostęp jest sprawdzany.
