@@ -1,194 +1,92 @@
-Slajd 1 – Temat
+# Slajd 1: Tytuł
 
-Audyt bezpieczeństwa informacji w ZSTI
+* **Temat:** Samodzielny audyt bezpieczeństwa w ZSTI na bazie ISO 27001.
+* **Cel:** Wykrycie słabych punktów szkoły oraz przygotowanie jej do procesu certyfikacji ISO 27001.
+* **Autor:** [Twoje Imię i Nazwisko]
 
-ISO/IEC 27001
+---
 
-Imiona i nazwiska osób z grupy.
-Slajd 2 – Co to jest ISO 27001?
+# Slajd 2: Co to jest audyt i zasada CIA?
 
-ISO 27001 to norma, która mówi, jak dobrze chronić informacje w organizacji.
+* **Definicja:** Audyt bezpieczeństwa to systematyczna ocena dokumentów, systemów informatycznych, zabezpieczeń oraz sposobu postępowania pracowników.
+* **Trzy podstawowe zasady bezpieczeństwa informacji (CIA):**
 
-W szkole mogą to być na przykład:
+  * **Poufność:** Dane uczniów, np. oceny i numery PESEL, są dostępne tylko dla osób uprawnionych.
+  * **Integralność:** Nieuprawnione osoby nie mogą zmieniać lub usuwać danych, np. modyfikować ocen w e-dzienniku.
+  * **Dostępność:** Systemy, sieć szkolna i e-dziennik powinny być dostępne dla uprawnionych użytkowników wtedy, gdy są potrzebne.
 
-    dane uczniów,
+---
 
-    dane nauczycieli,
+# Slajd 3: Najważniejsze elementy ISO 27001
 
-    oceny,
+* **Podejście oparte na ryzyku:** Nie trzeba zabezpieczać wszystkich zasobów w taki sam sposób. Najpierw określa się najważniejsze informacje i systemy oraz związane z nimi zagrożenia, a następnie dobiera odpowiednie zabezpieczenia.
+* **Ciągłe doskonalenie (PDCA):** Bezpieczeństwo informacji jest procesem. Organizacja planuje działania, wdraża je, sprawdza ich skuteczność i wprowadza poprawki.
+* **Załącznik A:** Zawiera zestaw zabezpieczeń dotyczących m.in. organizacji bezpieczeństwa, kontroli dostępu, ochrony informacji, bezpieczeństwa fizycznego oraz bezpieczeństwa technologicznego. Zabezpieczenia dobiera się odpowiednio do zidentyfikowanych ryzyk.
 
-    dokumenty,
+---
 
-    konta użytkowników,
+# Slajd 4: Mój plan działania – 3 etapy
 
-    komputery i serwery.
+Pracując samodzielnie, dzielę audyt szkoły na trzy główne obszary:
 
-Najważniejsze jest to, żeby osoby nieuprawnione nie mogły dostać się do informacji, dane nie zostały przypadkowo zmienione i żeby można było z nich korzystać, kiedy są potrzebne.
+1. **Etap 1 – Ludzie i dokumenty:** Kontrola procedur, dokumentacji oraz sposobu postępowania pracowników.
+2. **Etap 2 – Technologia i IT:** Sprawdzenie komputerów, oprogramowania, sieci oraz systemów informatycznych.
+3. **Etap 3 – Bezpieczeństwo fizyczne:** Sprawdzenie ochrony budynków, pomieszczeń, sprzętu i serwerowni.
 
-Jak powiedzieć:
-„Moim zdaniem najprościej można powiedzieć, że ISO 27001 jest zbiorem zasad, które pomagają organizacji bezpiecznie przechowywać i wykorzystywać informacje.”
-Slajd 3 – Co sprawdzamy podczas audytu?
+---
 
-Podczas audytu sprawdzamy, czy zabezpieczenia naprawdę działają, a nie tylko czy istnieją na papierze.
+# Slajd 5: Etap 1 – Dokumenty i zachowania pracowników
 
-Możemy sprawdzić:
+* **Sekretariat i e-dziennik:** Czy dokumentacja uczniów jest przechowywana w bezpieczny sposób? Kto ma dostęp do danych i czy dostęp ten jest odpowiednio ograniczony?
+* **Uprawnienia pracowników:** Czy każdy pracownik ma dostęp tylko do informacji potrzebnych mu do wykonywania swoich obowiązków?
+* **Bezpieczeństwo haseł:** Czy pracownicy stosują odpowiednie hasła i nie zapisują ich w łatwo dostępnych miejscach?
+* **Phishing:** Czy pracownicy potrafią rozpoznać podejrzane wiadomości e-mail i próby wyłudzenia danych?
 
-    komputery,
+---
 
-    konta i hasła,
+# Slajd 6: Etap 2 – Komputery i sieć (IT)
 
-    sieć Wi-Fi,
+* **Segmentacja sieci:** Czy sieć przeznaczona dla uczniów jest odseparowana od sieci administracyjnej i nauczycielskiej?
+* **Kontrola dostępu:** Czy użytkownicy mogą uzyskać dostęp wyłącznie do systemów i danych, do których mają uprawnienia?
+* **Aktualizacje:** Czy komputery i serwery mają aktualne systemy oraz oprogramowanie zabezpieczające?
+* **Automatyzacja:** Zamiast sprawdzać każdy komputer osobno, można wykorzystać system **Statlook (Uplook Zasoby)** do centralnej inwentaryzacji sprzętu i oprogramowania oraz kontroli licencji.
+* **Oprogramowanie:** Należy sprawdzić, czy na komputerach nie znajduje się nieautoryzowane lub nielegalne oprogramowanie.
 
-    serwery,
+---
 
-    kopie zapasowe,
+# Slajd 7: Etap 3 – Bezpieczeństwo fizyczne
 
-    programy antywirusowe,
+* **Serwerownia ZSTI:** Sprawdzam, czy pomieszczenie jest odpowiednio zabezpieczone przed dostępem osób nieuprawnionych oraz czy zapewniono odpowiednie warunki dla sprzętu.
+* **Ochrona sprzętu:** Sprawdzam zabezpieczenia komputerów, serwerów, urządzeń sieciowych i innych ważnych elementów infrastruktury.
+* **Kontrola wejść:** Czy osoby nieuprawnione mogą łatwo dostać się do chronionych pomieszczeń?
+* **Monitoring:** Sprawdzam zasady dostępu do nagrań monitoringu oraz okres ich przechowywania.
+* **Ochrona przed zagrożeniami:** Sprawdzam m.in. zabezpieczenia przeciwpożarowe oraz ochronę przed awariami zasilania.
 
-    dostęp do serwerowni,
+---
 
-    dokumenty.
+# Slajd 8: Jak zdobyć certyfikat ISO 27001?
 
-Jak powiedzieć:
-„Audyt można porównać do kontroli. Sprawdzamy, co jest zrobione dobrze, gdzie są problemy i co można poprawić.”
-Slajd 4 – Nasz audyt w ZSTI
+Po przeprowadzeniu własnego audytu i przygotowaniu systemu zarządzania bezpieczeństwem informacji szkoła może rozpocząć proces certyfikacji przez niezależną jednostkę certyfikującą, np. **DQS**.
 
-W naszym projekcie wybraliśmy kilka miejsc, które chcemy sprawdzić:
+* **Krok 1 – Audyt dokumentacji:** Audytorzy sprawdzają dokumentację, system zarządzania bezpieczeństwem informacji oraz podejście szkoły do zarządzania ryzykiem.
+* **Krok 2 – Audyt wdrożenia:** Audytorzy sprawdzają, czy wymagania są rzeczywiście stosowane w praktyce. Mogą m.in. przeprowadzać rozmowy z pracownikami i sprawdzać zabezpieczenia.
+* **Wynik:** Jeżeli wymagania zostaną spełnione, a ewentualne niezgodności zostaną odpowiednio rozwiązane, jednostka certyfikująca może podjąć pozytywną decyzję o wydaniu certyfikatu.
 
-1. Pracownie komputerowe
-Sprawdzamy aktualizacje, antywirusa i stan komputerów.
+---
 
-2. Konta użytkowników
-Sprawdzamy, kto ma dostęp do poszczególnych systemów.
+# Slajd 9: Co po certyfikacie? – Nadzór i recertyfikacja
 
-3. Serwerownia
-Sprawdzamy, czy osoby nieuprawnione nie mogą się tam dostać.
+* **Cykl certyfikacji:** Certyfikat ISO 27001 jest wydawany w ramach trzyletniego cyklu certyfikacji.
+* **Audyty nadzoru:** W trakcie cyklu przeprowadzane są okresowe audyty nadzoru, podczas których sprawdza się utrzymanie i funkcjonowanie systemu.
+* **Ciągłe doskonalenie:** Szkoła powinna regularnie analizować ryzyko, aktualizować zabezpieczenia i reagować na nowe zagrożenia.
+* **Moja rola:** Regularnie wykonuję przeglądy, analizuję wyniki i przygotowuję raporty dla dyrekcji, aby szkoła była przygotowana do kolejnych audytów.
 
-4. Kopie zapasowe
-Sprawdzamy, czy są wykonywane i czy można odzyskać z nich dane.
+---
 
-5. Oprogramowanie
-Sprawdzamy, jakie programy są zainstalowane na komputerach.
-Slajd 5 – Jak przeprowadzimy kontrolę?
+# Slajd 10: Podsumowanie
 
-Do audytu wykorzystamy kilka sposobów:
-
-    oglądamy pomieszczenia i sprzęt,
-
-    rozmawiamy z pracownikami,
-
-    sprawdzamy dokumenty,
-
-    kontrolujemy komputery i systemy,
-
-    sprawdzamy kopie zapasowe,
-
-    porównujemy to, co powinno być zrobione, z tym, co faktycznie jest zrobione.
-
-Jak powiedzieć:
-„Nie wystarczy zapytać pracownika, czy wszystko jest bezpieczne. Trzeba też sprawdzić dokumentację i, jeśli jest taka możliwość, zobaczyć to w praktyce.”
-Slajd 6 – Przykładowy problem nr 1
-Za duże uprawnienia
-
-Załóżmy, że zwykły użytkownik ma uprawnienia administratora komputera.
-
-Może wtedy instalować programy i zmieniać ustawienia, których nie powinien zmieniać.
-
-Ryzyko: większa możliwość zainfekowania komputera lub przypadkowego usunięcia ważnych danych.
-
-Co robimy?
-Ograniczamy uprawnienia tylko do tych, które są potrzebne.
-Slajd 7 – Przykładowy problem nr 2
-Nieaktualne komputery
-
-Podczas kontroli możemy znaleźć komputery, które dawno nie były aktualizowane.
-
-Jest to problem, ponieważ aktualizacje często poprawiają błędy i zabezpieczają system przed zagrożeniami.
-
-Co robimy?
-
-Wprowadzamy regularne sprawdzanie aktualizacji.
-Slajd 8 – Przykładowy problem nr 3
-Kopie zapasowe
-
-Szkoła może wykonywać kopie zapasowe, ale ważne jest też sprawdzenie, czy z takiej kopii rzeczywiście można odzyskać dane.
-
-Dlatego raz na jakiś czas wykonujemy test odtworzenia danych.
-
-Przykład:
-Jeżeli zepsuje się serwer, sprawdzamy, czy możemy przywrócić potrzebne pliki z backupu.
-Slajd 9 – Statlook
-
-Do sprawdzania komputerów i oprogramowania możemy wykorzystać Statlook.
-
-Program może pomóc między innymi w:
-
-    sprawdzaniu komputerów znajdujących się w szkole,
-
-    sprawdzaniu zainstalowanych programów,
-
-    kontroli sprzętu,
-
-    kontroli licencji.
-
-Jak powiedzieć:
-„Statlook może nam ułatwić audyt, ponieważ zamiast ręcznie sprawdzać każdy komputer, możemy wykorzystać informacje zebrane przez program.”
-
-Strona Statlook
-Slajd 10 – Co robimy, kiedy znajdziemy problem?
-
-Nie chodzi tylko o znalezienie błędu.
-
-Schemat jest prosty:
-
-Znajdujemy problem → oceniamy ryzyko → poprawiamy zabezpieczenie → sprawdzamy, czy problem został rozwiązany.
-
-Na przykład:
-
-Brak aktualizacji → aktualizujemy komputer → sprawdzamy ponownie.
-Slajd 11 – Certyfikat ISO 27001
-
-Żeby otrzymać certyfikat, organizacja musi między innymi:
-
-    określić, jakie informacje trzeba chronić,
-
-    sprawdzić zagrożenia,
-
-    ocenić ryzyko,
-
-    zastosować odpowiednie zabezpieczenia,
-
-    przygotować dokumentację,
-
-    przeprowadzić audyt wewnętrzny,
-
-    przejść audyt certyfikacyjny.
-
-Certyfikat nie oznacza, że „od teraz nic złego nie może się wydarzyć”. Oznacza, że organizacja ma określony system zarządzania bezpieczeństwem i podlega kontroli jego funkcjonowania.
-Slajd 12 – Recertyfikacja
-
-Certyfikat nie jest przyznawany na zawsze.
-
-W trakcie jego ważności organizacja jest kontrolowana podczas audytów nadzorczych.
-
-Po zakończeniu cyklu certyfikacyjnego przeprowadzana jest recertyfikacja, czyli ponowne sprawdzenie systemu.
-
-Dzięki temu organizacja musi cały czas dbać o bezpieczeństwo, a nie tylko przygotować się raz do kontroli.
-Slajd 13 – Podsumowanie
-
-Nasz audyt pokazał, że najważniejsze jest:
-
-    kontrolowanie dostępu do informacji,
-
-    aktualizowanie komputerów,
-
-    wykonywanie i sprawdzanie kopii zapasowych,
-
-    kontrolowanie oprogramowania,
-
-    zabezpieczenie serwerów i sprzętu,
-
-    reagowanie na problemy.
-
-Najważniejszy wniosek:
-Bezpieczeństwo informacji to nie jednorazowa kontrola. Trzeba je regularnie sprawdzać i poprawiać.
+* **Lepsza znajomość zagrożeń:** Samodzielny audyt pozwala zidentyfikować słabe punkty w organizacji, technologii i zabezpieczeniach fizycznych.
+* **Automatyzacja:** Narzędzia IT, takie jak Statlook, mogą ograniczyć ręczną pracę przy inwentaryzacji komputerów i oprogramowania.
+* **Ciągłe bezpieczeństwo:** ISO 27001 pomaga uporządkować proces zarządzania bezpieczeństwem informacji i ograniczać ryzyko incydentów.
+* **Ochrona danych:** Odpowiednio wdrożone zabezpieczenia pomagają chronić dane uczniów, pracowników oraz szkoły i wspierają realizację obowiązków związanych z ochroną danych osobowych.
+* **Cel końcowy:** Przygotowanie ZSTI do niezależnej certyfikacji zgodnie z ISO 27001.
