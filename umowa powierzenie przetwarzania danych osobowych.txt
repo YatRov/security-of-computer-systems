@@ -1,0 +1,15 @@
+# Umowa powierzenia przetwarzania danych osobowych
+
+Umowa powierzenia przetwarzania danych osobowych jest zawierana wtedy, gdy administrator danych przekazuje innemu podmiotowi dane osobowe do przetwarzania w jego imieniu. Taki podmiot nie decyduje sam, w jakim celu wykorzystuje dane, tylko robi to zgodnie z poleceniami administratora.
+
+Przykładem może być firma, która prowadzi dla innej firmy księgowość albo zajmuje się przechowywaniem danych na serwerach. W takim przypadku zewnętrzna firma może mieć dostęp do danych osobowych, dlatego zasady ich przetwarzania powinny być określone w umowie.
+
+Umowa powinna określać między innymi, **jakie dane są przetwarzane, w jakim celu, przez jaki czas oraz kogo dotyczą**. Powinny być również określone obowiązki administratora i podmiotu, któremu powierzono dane.
+
+Podmiot przetwarzający musi odpowiednio chronić otrzymane dane i nie może wykorzystywać ich do własnych celów. Administrator powinien również sprawdzić, czy firma, której powierza dane, zapewnia odpowiednie zabezpieczenia.
+
+Ważne jest też to, że samo powierzenie danych nie oznacza, że administrator przestaje za nie odpowiadać. Nadal musi on dbać o to, aby dane były przetwarzane zgodnie z RODO.
+
+## Podsumowanie
+
+Umowa powierzenia przetwarzania danych osobowych służy przede wszystkim określeniu zasad, na jakich zewnętrzna firma lub inny podmiot może przetwarzać dane w imieniu administratora. Dzięki temu wiadomo, jakie dane można przetwarzać, w jakim celu i jakie zasady bezpieczeństwa trzeba zachować.
