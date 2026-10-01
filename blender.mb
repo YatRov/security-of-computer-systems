@@ -1,0 +1,109 @@
+„Wydziel źrenicę i dodaj tekstury tak, aby powstał kolorowy model oka”.
+Zakładam, że masz aktualnie to, co na ostatnim zrzucie:
+
+Sphere (ewentualnie oryginał)
+Sphere.001 (rogówka)
+Sphere.002 (główna gałka z pierścieniami z przodu) ← na tym będziemy pracować
+
+
+CZĘŚĆ 1: Wydzielenie źrenicy
+
+Zaznacz obiekt Sphere.002.
+Naciśnij Tab (wejdź w Edit Mode).
+Naciśnij 3 (tryb zaznaczania Face – ściany).
+Naciśnij Alt + Z (włącz X-Ray), żeby łatwiej było zaznaczać.
+Ustaw widok z przodu: naciśnij 1 na klawiaturze numerycznej (Front Orthographic).
+Kliknij środkową, najmniejszą ścianę na samej przedniej części oka.
+Naciskaj Ctrl + Numpad + kilka razy, aż zaznaczysz tylko sam środek (źrenicę).
+Jeśli zaznaczy się za dużo – użyj Ctrl + Numpad –.
+Gdy masz zaznaczony tylko środek (źrenicę):
+Naciśnij P
+Wybierz Selection
+
+Źrenica stała się osobnym obiektem (prawdopodobnie Sphere.003).
+Naciśnij Tab (wróć do Object Mode).
+Zaznacz nowy obiekt źrenicy → kliknij prawym przyciskiem → Set Origin → Origin to Geometry.
+Zmień nazwę obiektu na Zrenica (w Outlinerze dwukrotnie kliknij nazwę).
+
+
+CZĘŚĆ 2: Przygotowanie materiałów (kolory)
+
+Zaznacz Sphere.002 (główna gałka).
+Po prawej stronie kliknij ikonę Material Properties (czerwona kula w szachownicę).
+Kliknij przycisk New i stwórz trzy materiały:
+
+Materiał 1 – Twardówka
+
+Nazwa: Twardowka
+Base Color: prawie biały (ustaw RGB na ok. 0.85 – 0.85 – 0.85)
+Roughness: 0.45
+
+Materiał 2 – Tęczówka
+
+Kliknij ponownie New
+Nazwa: Tecznica
+Base Color: wybierz kolor tęczówki (np. niebieski, zielony, brązowy)
+Roughness: 0.35
+
+Materiał 3 – Źrenica
+
+Kliknij New
+Nazwa: Zrenica
+Base Color: czarny (0, 0, 0)
+Roughness: 0.2
+
+
+Teraz przypisz materiały do ścian:
+Wejdź w Edit Mode (Tab) na Sphere.002
+Zaznacz zewnętrzne ściany (białko) → kliknij materiał Twardowka → przycisk Assign
+Zaznacz pierścienie tęczówki → materiał Tecznica → Assign
+(Źrenicę już wydzieliliśmy, więc jej nie przypisujemy tutaj)
+
+Zaznacz obiekt Zrenica → w Material Properties wybierz materiał Zrenica (lub stwórz nowy czarny).
+Zaznacz Sphere.001 (rogówka):
+Nowy materiał → nazwa Rogowka
+W Principled BSDF ustaw:
+Transmission Weight = 1.0
+IOR = 1.38
+Roughness = 0.02
+Base Color = biały
+
+
+
+
+CZĘŚĆ 3: Dodanie tekstury tęczówki (żeby było kolorowo i ładnie)
+
+Zaznacz Sphere.002.
+Przejdź na górze do zakładki Shading (lub otwórz Shader Editor na dole).
+Upewnij się, że wybrany jest materiał Tecznica.
+W Shader Editor dodaj węzły (Shift + A):Kolejność:
+Shift + A → Input → Texture Coordinate
+Shift + A → Vector → Mapping
+Shift + A → Texture → Gradient Texture
+Shift + A → Converter → ColorRamp
+
+Połącz je tak:
+Texture Coordinate → Generated → wejście Vector w Mapping
+Mapping → Vector → Gradient Texture
+Gradient Texture → Color → ColorRamp
+ColorRamp → Color → Base Color w Principled BSDF
+
+W Gradient Texture zmień typ na Quadratic Sphere lub Radial.
+W ColorRamp ustaw kolory (klikaj na znaczniki):
+Lewy znacznik: bardzo ciemny (prawie czarny)
+Środkowy: intensywny kolor tęczówki
+Prawy: jaśniejszy odcień lub złoty/żółty pierścień
+
+Możesz dodać więcej znaczników w ColorRamp klikając na pasek.
+
+
+CZĘŚĆ 4: Wykończenie modelu
+
+Zaznacz wszystkie obiekty oka (Sphere.002, Zrenica, Sphere.001).
+Kliknij prawym przyciskiem myszy → Shade Smooth.
+Na Sphere.002 i Sphere.001 dodaj modyfikator:
+Kliknij ikonę klucza (Modifiers)
+Add Modifier → Subdivision Surface
+Levels Viewport = 1 lub 2
+
+Przełącz podgląd na Material Preview (górny prawy róg – kula z szachownicą).
